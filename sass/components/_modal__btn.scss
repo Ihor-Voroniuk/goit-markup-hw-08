@@ -1,0 +1,97 @@
+.button-service {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+    background-color: #188ce8;
+    color: var(--color-bg);
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+    min-width: 200px;
+    height: 50px;
+    border: none;
+    @media screen and (max-width: 479px) {
+    top: 4px;
+    right: 4px;
+    }
+    &:hover,
+    &:focus {
+        color: var(--color-bg);
+        background-color: #0f9bec
+    }
+}
+
+.modal-btn {
+    padding: 6px 22px;
+    border-radius: 4px;
+    min-width: 73px;
+    min-height: 38px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+        border-radius: 8px;
+    }
+}
+
+.close-btn {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    justify-content: center;
+     &:hover,
+     &:focus {
+      fill: var(--color-link);
+}
+}
+
+
+
+.base-btn {
+    background-color: #188ce8;
+    color: var(--color-text);
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    border: 0;
+    border-radius: 4px;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     &:hover,
+     &:focus{
+         cursor: pointer;
+         color: #FFFFFF;
+         background-color: var(--color-link);
+     }
+     @media screen and (max-width: 479px) {
+    top: 4px;
+    right: 4px;
+}
+}
+
+
+
