@@ -139,7 +139,14 @@ color: var(--color-h-text);
  @media screen and (max-width: 320px) {
      font-size: 14px;
      line-height: 1.71;
+     margin-left: 10px;
  }
+ @media screen and (max-width: 479px) {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-left: 10px;
+
+}
     
 }
 
@@ -206,6 +213,7 @@ color: var(--color-h-text);
     font-weight: normal;
     line-height: calc(16px * 1.5);
     letter-spacing: calc(16px * 0.875 * 0.03);
+    
 }
 
 .input-text:focus-within {
@@ -223,6 +231,7 @@ color: var(--color-h-text);
     line-height: calc(16px * 0.875);
     letter-spacing: calc(var(--input-text-font-size) * 0.03);
     color: rgba(117, 117, 117, 0.5);
+    
 }
 
 .modal__box-menu .btn {
